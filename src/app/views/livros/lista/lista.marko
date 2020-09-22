@@ -6,10 +6,14 @@
         <h1> Listagem de livros </h1>
 
         <table>
-            <tr for(livro in data.livros)>
+            <tr>
+                <td>ID</td>
+                <td>Título</td>
+            </tr>
+            <tr for (livro in data.livros)>
                 <td>${livro.id}</td>
                 <td>${livro.titulo}</td>
             </tr>
-        </table> 
-    </body> 
+        </table>
+    </body>
 </html>
